@@ -3,4 +3,4 @@ COPY . /app2
 WORKDIR /app2
 RUN pip install -r requirements.txt
 ENTRYPOINT [ "python3" ]
-CMD ["app1.py"]
+CMD ["app2.py"]
